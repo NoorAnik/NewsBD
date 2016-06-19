@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#145"
+    tools:context=".EnglishActivity" >
+
+    <ImageView
+        android:id="@+id/dailystar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/dailystar" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/dailystar"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/dailysun" />
+
+    <ImageView
+        android:id="@+id/energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dailystar"
+        android:layout_below="@+id/dailystar"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/energy" />
+
+    <ImageView
+        android:id="@+id/finex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sun"
+        android:layout_alignTop="@+id/energy"
+        android:src="@drawable/finex" />
+
+    <ImageView
+        android:id="@+id/independent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/energy"
+        android:layout_centerVertical="true"
+        android:src="@drawable/independent" />
+
+    <ImageView
+        android:id="@+id/edaily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/finex"
+        android:layout_centerVertical="true"
+        android:src="@drawable/edaily" />
+
+    <ImageView
+        android:id="@+id/newage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/independent"
+        android:layout_below="@+id/independent"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/newage" />
+
+    <ImageView
+        android:id="@+id/newnation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edaily"
+        android:layout_alignTop="@+id/newage"
+        android:src="@drawable/newnation" />
+    
+     <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

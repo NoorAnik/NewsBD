@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+      android:background="#145"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/bnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/bbb" />
+
+    <ImageView
+        android:id="@+id/englishnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about"
+        android:layout_below="@+id/bnews"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/english" />
+
+    <ImageView
+        android:id="@+id/technonews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bnews"
+        android:layout_below="@+id/jobsnews"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/technology" />
+
+    <ImageView
+        android:id="@+id/jobsnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/technonews"
+        android:layout_below="@+id/englishnews"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/job" />
+
+    <ImageView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/technonews"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/abouts" />
+
+</RelativeLayout>

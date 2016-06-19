@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#145"
+    tools:context=".Bangla_News" >
+
+    <ImageView
+        android:id="@+id/p_alo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/prothomalo" />
+
+    <ImageView
+        android:id="@+id/jonokonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/p_alo"
+        android:layout_below="@+id/p_alo"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/jonokotho" />
+
+    <ImageView
+        android:id="@+id/azadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/somokal"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/azadi" />
+
+    <ImageView
+        android:id="@+id/kalerkonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jugantor"
+        android:layout_alignTop="@+id/jonokonto"
+        android:src="@drawable/kalerkantho" />
+
+    <ImageView
+        android:id="@+id/somokal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jonokonto"
+        android:layout_below="@+id/jonokonto"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/logo_somokal" />
+
+    <ImageView
+        android:id="@+id/jugantor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/azadi"
+        android:layout_marginLeft="43dp"
+        android:layout_toRightOf="@+id/azadi"
+        android:src="@drawable/jugantor" />
+
+    <ImageView
+        android:id="@+id/amadrsomoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jugantor"
+        android:layout_alignTop="@+id/somokal"
+        android:src="@drawable/amadersamoy" />
+
+    <ImageView
+        android:id="@+id/amardesh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/amadrsomoy"
+        android:layout_below="@+id/amadrsomoy"
+        android:layout_marginTop="33dp"
+        android:src="@drawable/amardesh" />
+
+    <ImageView
+        android:id="@+id/noya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/somokal"
+        android:layout_alignTop="@+id/amardesh"
+        android:src="@drawable/nayadiganta" />
+
+    <ImageView
+        android:id="@+id/bdnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jonokonto"
+        android:layout_alignLeft="@+id/kalerkonto"
+        android:src="@drawable/bdnews24" />
+    
+    <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

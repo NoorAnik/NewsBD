@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#145"
+    tools:context=".Jobs_NewsActivity" >
+
+    <ImageView
+        android:id="@+id/azadijobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bdjobs"
+        android:layout_alignRight="@+id/palojobs"
+        android:layout_below="@+id/bdjobs"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/aazadijobs" />
+
+    <ImageView
+        android:id="@+id/jobsctg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/azadijobs"
+        android:layout_below="@+id/azadijobs"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/ctgjobs" />
+
+    <ImageView
+        android:id="@+id/palojobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/prothomalojobs" />
+
+    <ImageView
+        android:id="@+id/bdjobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/palojobs"
+        android:layout_below="@+id/palojobs"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/bdjobs" />
+    
+    <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

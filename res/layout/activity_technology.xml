@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#145"
+    tools:context=".Technology" >
+
+    <ImageView
+        android:id="@+id/somewhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/techtunes"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:src="@drawable/somewhere" />
+
+    <ImageView
+        android:id="@+id/techtunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/somewhere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/techtunes" />
+
+    <ImageView
+        android:id="@+id/tunerpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/techtunes"
+        android:layout_alignLeft="@+id/techtunes"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/tunerpage" />
+
+    <ImageView
+        android:id="@+id/pchelpline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tunerpage"
+        android:layout_alignLeft="@+id/tunerpage"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/pchelpline" />
+    
+    <com.startapp.android.publish.banner.Banner 
+          android:id="@+id/startAppBanner"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

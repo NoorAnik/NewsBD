@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News BD</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash__screen">News BD</string>
+    <string name="title_activity_bangla__news">Bangla News</string>
+    <string name="title_activity_load_web">Load Web</string>
+    <string name="title_activity_english">English  Newspaper</string>
+    <string name="title_activity_jobs__news">Jobs Newspaper</string>
+    <string name="title_activity_technology">Technology Blogs</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
